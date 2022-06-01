@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		531F3FBF28454B0E00D26E0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531F3FBE28454B0E00D26E0B /* AppDelegate.swift */; };
 		531F3FC128454B0E00D26E0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531F3FC028454B0E00D26E0B /* SceneDelegate.swift */; };
-		531F3FC328454B0E00D26E0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531F3FC228454B0E00D26E0B /* ViewController.swift */; };
+		531F3FC328454B0E00D26E0B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531F3FC228454B0E00D26E0B /* MainViewController.swift */; };
 		531F3FC628454B0E00D26E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531F3FC428454B0E00D26E0B /* Main.storyboard */; };
 		531F3FC828454B1200D26E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531F3FC728454B1200D26E0B /* Assets.xcassets */; };
 		531F3FCB28454B1200D26E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531F3FC928454B1200D26E0B /* LaunchScreen.storyboard */; };
 		531F3FD628454B1200D26E0B /* Week2_GayeKORDACITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531F3FD528454B1200D26E0B /* Week2_GayeKORDACITests.swift */; };
 		531F3FE128454B1200D26E0B /* Week2_GayeKORDACIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531F3FE028454B1200D26E0B /* Week2_GayeKORDACIUITests.swift */; };
+		534DD45A28465E01007859F5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534DD45928465E01007859F5 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		531F3FBB28454B0E00D26E0B /* Week2-GayeKORDACI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week2-GayeKORDACI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		531F3FBE28454B0E00D26E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		531F3FC028454B0E00D26E0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		531F3FC228454B0E00D26E0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		531F3FC228454B0E00D26E0B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		531F3FC528454B0E00D26E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		531F3FC728454B1200D26E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		531F3FCA28454B1200D26E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		531F3FDC28454B1200D26E0B /* Week2-GayeKORDACIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week2-GayeKORDACIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		531F3FE028454B1200D26E0B /* Week2_GayeKORDACIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2_GayeKORDACIUITests.swift; sourceTree = "<group>"; };
 		531F3FE228454B1200D26E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534DD45928465E01007859F5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				531F3FBE28454B0E00D26E0B /* AppDelegate.swift */,
 				531F3FC028454B0E00D26E0B /* SceneDelegate.swift */,
-				531F3FC228454B0E00D26E0B /* ViewController.swift */,
+				531F3FC228454B0E00D26E0B /* MainViewController.swift */,
 				531F3FC428454B0E00D26E0B /* Main.storyboard */,
 				531F3FC728454B1200D26E0B /* Assets.xcassets */,
 				531F3FC928454B1200D26E0B /* LaunchScreen.storyboard */,
 				531F3FCC28454B1200D26E0B /* Info.plist */,
+				534DD45928465E01007859F5 /* SecondViewController.swift */,
 			);
 			path = "Week2-GayeKORDACI";
 			sourceTree = "<group>";
@@ -258,7 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				531F3FC328454B0E00D26E0B /* ViewController.swift in Sources */,
+				534DD45A28465E01007859F5 /* SecondViewController.swift in Sources */,
+				531F3FC328454B0E00D26E0B /* MainViewController.swift in Sources */,
 				531F3FBF28454B0E00D26E0B /* AppDelegate.swift in Sources */,
 				531F3FC128454B0E00D26E0B /* SceneDelegate.swift in Sources */,
 			);
